@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: #262626;
+  font-family: 'Open Sans';
+  color: darkslategrey;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background: rgb(172, 191, 164);
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgb(172, 191, 164, 0.1);
+  padding: 40px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #262626;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 24;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+a {
+  color: #E2E8CE;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #76917d;
+  text-decoration: none;
+}
+
+#img {
+  width: 150px;
+  height: 150px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-black {
+  background-color: #262626;
+  color:#E2E8CE;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
